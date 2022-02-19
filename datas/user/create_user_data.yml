@@ -1,0 +1,46 @@
+# 新建成员
+'data':
+  -
+    - 'summer001'
+    - 'newuser001'
+    - '1'
+    - ''
+    - ''
+    - 'Warning: wrong json format. missing mobile or email'
+  -
+    - 'summer001'
+    - 'newuser001'
+    - '1'
+    - '13000000000'
+    - ''
+    - 'created. Warning: wrong json format.'
+  -
+    - 'summer002'
+    - 'newuser002'
+    - '1'
+    - '13000000001'
+    - 'summer002@163.com'
+    - 'created. Warning: wrong json format.'
+  -
+    - 'summer003'
+    - 'newuser003'
+    - '1'
+    - '13000000001'
+    - 'summer003@163.com'
+    - 'Warning: wrong json format. mobile existed:summer002'
+  -
+    - 'summer003'
+    - 'newuser003'
+    - '1'
+    - '13000000002'
+    - 'summer003@163.com'
+    - 'Warning: wrong json format. mobile existed:summer002'
+  -
+    - 'summer004'
+    - 'newuser004'
+    - '1'
+    - '13000000003'
+    - 'summer004@163.com'
+    - 'Warning: wrong json format. mobile existed:summer002'
+
+

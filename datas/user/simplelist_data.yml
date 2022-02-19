@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    :  2022/2/19 16:09
+# @Author  : Summer
+# @Site    : 
+# @Email    : 2361157192@qq.com
+# @File    : simplelist_data.yml
+# @Software: PyCharm
+
+data:
+  -
+    - '1'
+    - '1'
+  -
+    - '1'
+    - '0'

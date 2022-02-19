@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    :  2022/2/18 10:36
+# @Author  : Summer
+# @Site    : 
+# @Email    : 2361157192@qq.com
+# @File    : detele_user.yml
+# @Software: PyCharm
+# 删除成员
+'data':
+  - 'summer001'
+  - 'summer002'

@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    :  2022/2/19 15:31
+# @Author  : Summer
+# @Site    : 
+# @Email    : 2361157192@qq.com
+# @File    : batchdelete_user_data.yml
+# @Software: PyCharm
+
+data:
+  -
+    - 'summer003'
+    - 'summer004'

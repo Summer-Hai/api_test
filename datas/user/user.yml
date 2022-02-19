@@ -1,0 +1,50 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    :  2022/2/19 9:50
+# @Author  : Summer
+# @Site    : 
+# @Email    : 2361157192@qq.com
+# @File    : user.yml
+# @Software: PyCharm
+# 获取成员信息
+'get_user':
+  method: 'GET'
+  url: 'https://$ip/cgi-bin/user/get?access_token=$access_token&userid=$userid'
+
+# 添加成员
+'add_user':
+  method: 'POST'
+  url: 'https://$ip/cgi-bin/user/create?access_token=$access_token'
+  json:
+    userid: '$userid'
+    name: '$name'
+    department: '$department'
+    mobile: '$mobile'
+    email: '$email'
+
+# 更新成员
+'update_user':
+  method: 'POST'
+  url: 'https://$ip/cgi-bin/user/update?access_token=$access_token'
+
+# 删除成员
+'delete_user':
+  method: 'GET'
+  url: 'https://$ip/cgi-bin/user/delete?access_token=$access_token&userid=$userid'
+
+# 批量删除成员
+'batchdelete':
+  method: 'POST'
+  url: 'https://$ip/cgi-bin/user/batchdelete?access_token=$access_token'
+  json:
+    useridlist:
+      - '$userid1'
+      - '$userid2'
+
+# 获取部门成员
+simplelist:
+  method: 'GET'
+  url: 'https://$ip/cgi-bin/user/simplelist?access_token=$access_token&department_id=$department_id&fetch_child=$fetch_child'
+
+
+
